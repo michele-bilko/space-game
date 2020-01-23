@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Cache-control" content="public, max-age=3600, must-revalidate">
+        <title>Practice Site</title>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script type = "text/javascript" src="script.js"></script>
+    </head>
+
+    <body onLoad="showTime();">
+        <div id="clockDisplay" class="container"></div>
+        <div class="none">none</div>
+
+        <!-- Side navigation -->
+        <div id="mySidebar" class="sidebar">
+            <!--<a href="#">Home</a>-->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="active">Home</a>
+            <a href="./page1.html">Page 1</a>
+            <a href="./page2.html">Page 2</a>
+            <a href="./page3.html">Page 3</a>
+        </div>
+        
+        <div class="main">
+            <button class="openbtn" onclick="openNav()">&#9776; Sidebar</button>
+        </div>
+    </body>
+
+</html>
