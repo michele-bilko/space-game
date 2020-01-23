@@ -1,0 +1,147 @@
+.sidebar {
+    height: 100%; /* full height */
+    width: 320px; /* width */
+    position: fixed; /* fixed side*/
+    z-index: 1; /* top */
+    top: 0; /* top */
+    left: 0;
+    background-color: #332333;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition:0.5s;
+  }
+  
+  /* links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 45px;
+    color: #473847;
+    display: block; 
+    font-family: 'Press Start 2P', cursive;
+    transition: 0.3s;
+  }
+  
+  /* hover link color */
+  .sidebar a:hover {
+    color: #B07271;
+    cursor: url("https://i.ya-webdesign.com/images/purple-lightsaber-png-2.png"), pointer;
+  }
+
+  /* active page color */
+  .sidebar .active{
+    color: #B07271;
+  }
+
+  /*close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*button used to open the sidebar */
+.openbtn {
+  font-size: 30px;
+  cursor: url("https://i.ya-webdesign.com/images/purple-lightsaber-png-2.png"), pointer;
+  /*background-color: #473847;
+  color: #473847;
+  /*padding: 10px 15px;
+  border: 1px solid #473847;
+  padding: 10px;
+  position: fixed;
+  top: 8px;
+  left: 16px;
+  font-weight: bold;
+  width: 250px*/
+  font-family: 'VT323', monospace;
+  font-weight: bold;
+  color: #B07271;
+  /*border: 1px solid #B07271;*/
+  border: none;
+  width: 150px;
+  height: 75px;
+  padding: 10px;
+  position: fixed;
+  top: 8px;
+  left: 16px;
+  background-color: transparent;
+}
+
+.openbtn:hover {
+  background-color: #473847;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/*#main {
+  transition: margin-left .5s; /* If you want a transition effect 
+  padding: 20px;
+}
+  
+  /* style page content */
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+    font-family: 'VT323', monospace;
+    padding: 20px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+  
+  /* change sidebar for small screens*/
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  /* background color */
+  body {
+    background-image: url('https://i.pinimg.com/originals/e5/da/3c/e5da3cb3fbe9af8f2198f3459e72424a.png') ;
+    /*background-repeat: no-repeat;*/
+    background-color: #1C1424;
+  }
+
+  .container{
+      font-family: 'VT323', monospace;
+      font-weight: bold;
+      color: #B07271;
+      border: 1px solid #B07271;
+      width: 250px;
+      padding: 10px;
+      position: fixed;
+      bottom: 8px;
+      left: 16px;
+      font-size: 18px;
+      z-index: 2;
+  }
+
+  .start{
+    margin: auto;
+  }
+  
+  .start a{
+    font-family:'VT323', monospace;
+    font-weight: bold;
+    color: #473847;
+    border: 10px solid #473847;
+    width: 480px;
+    height: 200px;
+    position: fixed;
+    font-size: 200px;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    line-height: 175px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .start a:hover{
+    color: #B07271;
+    border: 10px solid #B07271;
+  }
